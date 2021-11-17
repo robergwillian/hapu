@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const HeroWrapper = styled.section`
   display: flex;
   padding: 0 228px 0px 128px;
+
+  @media(max-width:700px){
+    padding:70px;
+  }
 `;
 
 export const HeroText = styled.div`
@@ -27,6 +31,28 @@ export const HeroText = styled.div`
     font-weight: 400;
     line-height: 24px;
     
+  }
+
+  @media(max-width:700px){
+    width:100%;
+    padding:0;
+    margin:0;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    h1{
+      font-size:28px;
+      line-height:32px;
+      max-width:250px;
+    }
+
+    p{
+      font-size:16px;
+      line-height:28px;
+      text-align:center;
+    }
   }
 `;
 
@@ -62,10 +88,17 @@ export const HeroAction = styled.div`
           color:#ffffff;
       }
   }
+
+  @media(max-width:700px){
+    margin-bottom:0px;
+  }
 `;
 
 export const HeroImg = styled.div`
 
+  @media(max-width:700px){
+    display:none;
+  }
 
 
 `;

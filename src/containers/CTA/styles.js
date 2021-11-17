@@ -26,4 +26,18 @@ export const CTAWrapper = styled.section`
     font-family: Helvetica Neue;
     font-weight: bold;
   }
+
+  @media(max-width:700px){
+    flex-direction:column;
+
+    p:first-of-type {
+      max-width:212px;
+      text-align:center;
+      margin-bottom:12px;
+    }
+
+    p {
+      margin-bottom:12px;
+    }
+  }
 `;

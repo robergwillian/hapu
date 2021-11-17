@@ -10,4 +10,8 @@ export const DividerClass = styled.hr`
   border: 2px solid #dfdfdf;
   margin: 0 auto;
   max-width: 784px;
+
+  @media(max-width:700px){
+    max-width:328px;
+  }
 `;

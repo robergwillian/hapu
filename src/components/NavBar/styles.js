@@ -15,6 +15,11 @@ export const Header = styled.header`
       filter: brightness(0.8);
     }
   }
+
+  @media(max-width:700px){
+    justify-content:space-between;
+    margin-bottom:0px;
+  }
 `;
 
 export const LogoWrapper = styled.div`
@@ -48,6 +53,10 @@ export const Nav = styled.nav`
       margin-right:32px;
   }
 
+  @media (max-width:700px){
+    display:none;
+  }
+
 `;
 
 export const SideNav = styled.nav`
@@ -70,5 +79,13 @@ export const SideNav = styled.nav`
 
   p {
     margin-left: 23px;
+  }
+
+  @media(max-width:700px){
+
+    
+    p{
+      display:none;
+    }
   }
 `;

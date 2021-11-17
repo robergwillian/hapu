@@ -32,4 +32,14 @@ export const FeatureWrapper = styled.section`
         font-weight:500;
         margin-bottom:64px;
     }
+
+    @media(max-width:700px){
+        padding:64px 16px;
+        text-align:center;
+
+        img{
+            display:none;
+        }
+        
+    }
 `;

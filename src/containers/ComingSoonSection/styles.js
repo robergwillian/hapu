@@ -21,4 +21,9 @@ export const ComingSoonWrapper = styled.section`
 
     }
 
+    @media(max-width:700px){
+        text-align:center;
+        padding:64px 16px;
+    }
+
 `;

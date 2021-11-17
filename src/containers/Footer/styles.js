@@ -21,6 +21,10 @@ export const FooterWrapper = styled.footer`
   a {
     font-weight: 500;
   }
+
+  @media(max-width:700px){
+    padding:64px 16px 10px;
+  }
 `;
 
 export const CreateNannyShare = styled.div`
@@ -59,6 +63,11 @@ export const Nav = styled.nav`
   margin-top: 82px;
   margin-bottom: 90px;
   width: 100%;
+
+  @media(max-width:700px){
+    flex-direction: column;
+    margin-top:40px;
+  }
 `;
 
 export const NavLinks = styled.nav`
@@ -70,6 +79,19 @@ export const NavLinks = styled.nav`
 
   a {
     color: var(--text);
+  }
+
+  @media(max-width:700px){
+    max-width:70%;
+    flex-wrap:wrap;
+    margin-left:0;
+    justify-content: space-around;
+    font-size:14px;
+    margin-top:32px;
+
+    a{
+      margin-bottom:26px;
+    }
   }
 `;
 
@@ -85,4 +107,9 @@ export const Copyright = styled.div`
   font-size: 12px;
   line-height: 16px;
   opacity: 0.6;
+
+  @media(max-width:700px){
+    padding:24px 64px 0;
+    border-top:1px solid #dfdfdf;
+  }
 `;

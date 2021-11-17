@@ -42,4 +42,23 @@ export const NewsLetterWrapper = styled.section`
         filter:brightness(0.9);
     }
   }
+
+  @media(max-width:700px){
+    padding:64px 16px;
+
+    h3, p{
+      max-width:100%;
+      text-align:center;
+      line-height:28px;
+    }
+
+    p{
+      margin-bottom:32px;
+    }
+
+    input, input[type="button"]{
+      width:100%;
+      margin-bottom:10px;
+    }
+  }
 `;
