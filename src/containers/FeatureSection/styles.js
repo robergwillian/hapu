@@ -40,6 +40,10 @@ export const FeatureWrapper = styled.section`
         img{
             display:none;
         }
+
+        a {
+            margin-bottom:0;
+        }
         
     }
 `;
