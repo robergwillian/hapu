@@ -5,7 +5,7 @@ export const HeroWrapper = styled.section`
   padding: 0 228px 0px 128px;
 
   @media(max-width:700px){
-    padding:70px;
+    padding:70px 16px;
   }
 `;
 

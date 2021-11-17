@@ -109,7 +109,7 @@ export const Copyright = styled.div`
   opacity: 0.6;
 
   @media(max-width:700px){
-    padding:24px 64px 0;
+    padding:24px 16px 0;
     border-top:1px solid #dfdfdf;
   }
 `;

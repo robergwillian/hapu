@@ -7,7 +7,7 @@ export const DividerBG = styled.div`
 
 export const DividerClass = styled.hr`
   background: #f2f2f2;
-  border: 2px solid #dfdfdf;
+  border: 1px solid #dfdfdf;
   margin: 0 auto;
   max-width: 784px;
 

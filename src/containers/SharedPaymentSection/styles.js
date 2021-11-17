@@ -9,7 +9,7 @@ export const SharedPaymentSection = styled.section`
 
   @media(max-width:700px){
       flex-direction:column;
-      padding:64px 24px;
+      padding:64px 16px;
       justify-content:center;
       align-items:center;
   }
