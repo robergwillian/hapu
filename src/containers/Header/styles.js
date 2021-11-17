@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import headerbg from '../../assets/header-bg.svg';
+import headerbg from '../../assets/header-bg.png';
 
 export const HeaderWrapper = styled.header`
     display:flex;
