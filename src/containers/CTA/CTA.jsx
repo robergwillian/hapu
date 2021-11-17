@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import Cta from "../../components/Cta/Cta";
+import { CTAWrapper } from "./styles";
 
 function CTA() {
-    return (
-        <div>
-            cta here
-        </div>
-    )
+  return (
+    <CTAWrapper>
+        <Cta />
+    </CTAWrapper>
+  );
 }
 
-export default CTA
+export default CTA;

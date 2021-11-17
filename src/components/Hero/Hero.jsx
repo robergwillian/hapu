@@ -10,13 +10,15 @@ function Hero() {
                 <h1>Easily create or join a local nanny share with Hapu</h1>
                 <p>Hapu is Airbng for nanny share. Share your home, nanny and costs, and create new flexible, affordable solutions in childcare.</p>
                 <HeroAction>
-                    <button><MdArrowRight color="#ffffff" size="large"/></button>
+                    <button><MdArrowRight color="#ffffff" size={120}/></button>
                     <p><a href="/">See hapu in action (27 seconds)</a></p>
 
                 </HeroAction>
             </HeroText>
             <HeroImg>
-                <img src={heroImg} alt="Manage your nanny share"/>
+                <figure>
+                    <img src={heroImg} alt="Manage your nanny share"/>
+                </figure>    
             </HeroImg>
 
         </HeroWrapper>

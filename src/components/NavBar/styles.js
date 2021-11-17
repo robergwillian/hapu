@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
   align-items: center;
   display: flex;
-  margin-bottom:92px;
+  margin-bottom: 92px;
   padding: 0 20px;
   width: 100%;
   font: var(--font) 500;
@@ -62,6 +62,10 @@ export const SideNav = styled.nav`
     color: #ffffff;
     width: 233px;
     height: 44px;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
   }
 
   p {

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeroWrapper = styled.div`
+export const HeroWrapper = styled.section`
   display: flex;
   padding: 0 228px 0px 128px;
 `;
@@ -64,4 +64,8 @@ export const HeroAction = styled.div`
   }
 `;
 
-export const HeroImg = styled.div``;
+export const HeroImg = styled.div`
+
+
+
+`;
