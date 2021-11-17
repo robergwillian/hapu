@@ -18,6 +18,7 @@ export const CTAWrapper = styled.section`
     line-height: 24px;
     text-decoration: underline;
     color: var(--secondary);
+    font-family:var(--font);
   }
   p {
     color: #000000;

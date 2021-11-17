@@ -57,7 +57,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   margin-top: 82px;
-  margin-bottom:90px;
+  margin-bottom: 90px;
   width: 100%;
 `;
 
@@ -65,11 +65,11 @@ export const NavLinks = styled.nav`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-left:115px;
+  margin-left: 115px;
   width: 415px;
 
-  a{
-      color:var(--text);
+  a {
+    color: var(--text);
   }
 `;
 
@@ -77,15 +77,12 @@ export const SocialLinks = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width:170px;
-
-
+  width: 170px;
 `;
 
-
 export const Copyright = styled.div`
-    color:var(--text);
-    font-size:12px;
-    line-height: 16px;
-    opacity:0.6;
+  color: var(--text);
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 0.6;
 `;
