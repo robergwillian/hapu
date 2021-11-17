@@ -3,11 +3,20 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family:var(--font);
+}
+
+h2{
+  font-size:28px;
+  line-height:32px;
+  font-weight:500;
+  margin-bottom:40px;
 }
 
 .Wrapper {
   margin: 0 auto;
   max-width: 1440px;
+  background: #FAF9F7;
 }
 
 a {

@@ -1,17 +1,15 @@
 import styled from 'styled-components'
 
 export const ShareHomeSection = styled.section`
-    width:1440px;
     display:flex;
     margin:0 auto;
-    background: #FAF9F7;
     padding:120px 128px 120px 228px;
     justify-content:space-between;
 `;
 
 export const ShareHomeSectionLeftSide = styled.div`
 
-    max-width:400px;
+    max-width:440px;
 
     h2{
         color:var(--text);
@@ -24,14 +22,14 @@ export const ShareHomeSectionLeftSide = styled.div`
     }
 
     p{
-        color: #4A4A4A;
+        color: var(--text-secondary);
         font-size: 16px;
         line-height: 28px;
         margin-bottom:40px;
 
         span {
             color:var(--secondary);
-            font-weight:bold;
+            font-weight:500;
             text-decoration:underline;
             line-height:24px;
         }
@@ -39,7 +37,7 @@ export const ShareHomeSectionLeftSide = styled.div`
 
     a{
         color:var(--secondary);
-        font-weight: bold;
+        font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         text-decoration-line: underline;

@@ -1,5 +1,5 @@
 import './App.scss';
-import { Header, CTA, ShareHomeSection, NewsletterSection, SharedPaymentSection, ComingSoonSection, Footer } from './containers'
+import { Header, CTA, ShareHomeSection, NewsletterSection, SharedPaymentSection, ComingSoonSection, Footer, FeatureSection } from './containers'
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <ShareHomeSection />
         <NewsletterSection />
         <SharedPaymentSection />
+        <FeatureSection />
         <ComingSoonSection />
         <Footer />
 
