@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const CTAWrapper = styled.section`
-  max-width: 1440px;
-  padding: 28px;
+  align-items: center;
   background: #ffffff;
+  border: 1px solid #dfdfdf;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 28px;
 
   img {
     margin-right: 32px;
@@ -23,6 +23,6 @@ export const CTAWrapper = styled.section`
     color: #000000;
     text-decoration: none;
     font-family: Helvetica Neue;
-    font-weight:bold;
+    font-weight: bold;
   }
 `;

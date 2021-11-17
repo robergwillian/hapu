@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import headerbg from '../../assets/header-bg.svg';
 
 export const HeaderWrapper = styled.header`
-    width:1440px;
     display:flex;
     flex-direction:column;
     margin:0 auto;
