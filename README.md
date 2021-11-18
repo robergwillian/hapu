@@ -1,62 +1,36 @@
-### `yarn start`
+# React Challenge #001
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Implemented a landing page for Hapu Nanny Share.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can access a live version of this landing page at: https://hapunannyshare.netlify.app/
 
-### `yarn test`
+The current build is being part of a A/B test. The test is testing out which Hero section text is presenting better to the user.
+To do the A/B test we are using a A/B Testing React Component which can be found at https://www.npmjs.com/package/@marvelapp/react-ab-test
+To see the reports on the A/B test I decided to use MixPanel which has a free tier. You can access the testing report at https://mixpanel.com/s/20Syl5
+Note you will have to login and ask for permission to see the report.
+Below is a sample of the report:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./src/assets/inicialreport.png" width="500px">
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to run the app in development mode
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- git clone https://github.com/robergwillian/hapu.git
+- run `yarn` to download
+- once dependencies are downloaded you should run `yarn start` to start the development server.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## How to create production build
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- after you have finished in development mode you should run `yarn build` 
+- This will bundle, minify all files and filenames, and optimizes the build for best performance
+- Builds the app for production to the `build` folder.\
+- Your app is ready to be deployed!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Lighthouse performance report
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- This is the lighthouse report of the landing page as is in this repo:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./src/assets/lighthouse.png">

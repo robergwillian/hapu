@@ -11,7 +11,7 @@ import {
 import Mixpanel from 'mixpanel';
 import secrets from '../../secrets.json';
 
-var mixpanel = Mixpanel.init(secrets.mixpanelToken);
+var mixpanel = Mixpanel.init(process.env.REACT_APP_mixpanelToken);
 
 experimentDebugger.enable();
 emitter.defineVariants(
@@ -85,15 +85,15 @@ export default Hero;
 
 // Called when the experiment is displayed to the user.
 emitter.addPlayListener(function(experimentName, variantName) {
-    console.log(`Displaying experiment ${experimentName} variant ${variantName}`);
+    // console.log(`Displaying experiment ${experimentName} variant ${variantName}`);
 });
 
 
 // Called when a 'win' is emitted, in this case by this.refs.experiment.win()
 emitter.addWinListener(function(experimentName, variantName) {
-    console.log(
-        `Variant ${variantName} of experiment ${experimentName} was shown`
-    );
+    // console.log(
+    //     `Variant ${variantName} of experiment ${experimentName} was shown`
+    // );
     mixpanel.track(experimentName + " " + variantName, {
         name: experimentName,
         variant: variantName,
