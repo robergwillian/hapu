@@ -9,7 +9,6 @@ import {
   experimentDebugger,
 } from "@marvelapp/react-ab-test";
 import Mixpanel from 'mixpanel';
-import secrets from '../../secrets.json';
 
 var mixpanel = Mixpanel.init(process.env.REACT_APP_mixpanelToken);
 
